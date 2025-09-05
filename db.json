@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Aurora Headphones",
+      "category": "Audio",
+      "price": 79.99,
+      "rating": 4.4
+    },
+    {
+      "id": 2,
+      "title": "Nimbus Keyboard",
+      "category": "Accessories",
+      "price": 59.0,
+      "rating": 4.1
+    },
+    {
+      "id": 3,
+      "title": "Solaris Backpack",
+      "category": "Bags",
+      "price": 49.5,
+      "rating": 4.6
+    },
+    {
+      "id": 4,
+      "title": "Echo Smart Speaker",
+      "category": "Audio",
+      "price": 99.0,
+      "rating": 4.2
+    },
+    {
+      "id": 5,
+      "title": "Lumen Desk Lamp",
+      "category": "Home",
+      "price": 39.99,
+      "rating": 4.0
+    },
+    {
+      "id": 6,
+      "title": "Pulse Fitness Band",
+      "category": "Wearables",
+      "price": 69.0,
+      "rating": 4.3
+    },
+    {
+      "id": 7,
+      "title": "Breeze USB Fan",
+      "category": "Home",
+      "price": 19.99,
+      "rating": 3.9
+    },
+    {
+      "id": 8,
+      "title": "Quill Stylus",
+      "category": "Accessories",
+      "price": 24.5,
+      "rating": 4.5
+    },
+    {
+      "id": 9,
+      "title": "Atlas Travel Mug",
+      "category": "Home",
+      "price": 14.99,
+      "rating": 4.7
+    },
+    {
+      "id": 10,
+      "title": "Nova Mouse",
+      "category": "Accessories",
+      "price": 25.0,
+      "rating": 4.2
+    }
+  ]
+}
