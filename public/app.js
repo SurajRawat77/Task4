@@ -5,7 +5,7 @@ const DATA = [];
 async function load() {
   try {
     // Try json-server first
-    const res = await fetch("http://localhost:5000/products");
+    const res = await fetch("/products");
     if (!res.ok) throw new Error("json-server not available");
     const arr = await res.json();
     DATA.push(...arr);
