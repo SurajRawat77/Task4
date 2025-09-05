@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json --port $PORT",
+    "start": "json-server --watch db.json --port $PORT --host 0.0.0.0",
+
     "dev": "json-server --watch db.json --port 5000"
   },
   "dependencies": {
