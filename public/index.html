@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio • Suraj Rawat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="index.html">My<span>Portfolio</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        ☰
+      </button>
+      <nav class="site-nav" data-collapsed="true">
+        <a href="index.html" class="active">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <button
+          id="themeToggle"
+          class="theme-btn"
+          aria-label="Toggle dark mode"
+        >
+          🌓
+        </button>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="accent">Suraj Rawat</span></h1>
+          <p class="lead">
+            Front-End Developer crafting clean, accessible, and delightful web
+            experiences.
+          </p>
+          <div class="cta-row">
+            <a class="btn primary" href="projects.html">View Projects</a>
+            <a class="btn ghost" href="contact.html">Contact Me</a>
+          </div>
+        </div>
+        <picture class="hero-art" aria-hidden="true">
+          <img
+            src="codingimage.jpg"
+            
+            alt=""
+          />
+        </picture>
+      </section>
+
+      <section class="about grid-2">
+        <div>
+          <h2>About Me</h2>
+          <p>
+            I build responsive websites with a focus on performance, semantics,
+            and maintainable code. I enjoy translating ideas into interactive
+            interfaces.
+          </p>
+          <ul class="badges">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive UI</li>
+            <li>React</li>
+            <li>Redux</li>
+            <li>tailwind</li>
+
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Highlights</h3>
+          <ul class="tick-list">
+            <li>Built 10+ micro projects to master JS fundamentals</li>
+            <li>Created reusable UI components and utilities</li>
+            <li>Deployed apps on Vercel/Netlify</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="projects-preview">
+        <div class="section-head">
+          <h2>Recent Projects</h2>
+          <a class="link" href="projects.html">See all →</a>
+        </div>
+        <div class="cards">
+          
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=1000&q=80&auto=format&fit=crop"
+              alt="Todo App"
+            />
+            <div class="card-body">
+              <h3>To‑Do App</h3>
+              <p>LocalStorage-powered tasks with filters and search.</p>
+              <a class="link" href="#">Github</a>
+            </div>
+          </article>
+          <article class="card">
+            <img
+              src="https://images.unsplash.com/photo-1472289065668-ce650ac443d2?w=1000&q=80&auto=format&fit=crop"
+              alt="Product Listing"
+            />
+            <div class="card-body">
+              <h3>Product Listing</h3>
+              <p>Dynamic filtering & sorting with smooth UI.</p>
+              <a class="link" href="#">Github</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        © <span id="year"></span> Suraj Rawat •
+        <a href="mailto:rawatsuraj1079@gmail.com">rawatsuraj1079@gmail.com</a>
+      </p>
+    </footer>
+  </body>
+</html>

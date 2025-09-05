@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects • Your Name</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">My<span>Portfolio</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <nav class="site-nav" data-collapsed="true">
+      <a href="index.html">Home</a>
+      <a href="projects.html" class="active">Projects</a>
+      <a href="contact.html">Contact</a>
+      <button id="themeToggle" class="theme-btn" aria-label="Toggle dark mode">🌓</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Projects</h1>
+    <div class="filters-row">
+      <input type="search" class="search" id="projSearch" placeholder="Search projects…" />
+      <select id="projFilter">
+        <option value="all">All</option>
+        <option value="ui">UI</option>
+        <option value="js">JavaScript</option>
+        
+      </select>
+    </div>
+    <div id="projectGrid" class="cards"></div>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Suraj Rawat</p>
+  </footer>
+</body>
+</html>
